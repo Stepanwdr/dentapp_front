@@ -1,0 +1,70 @@
+.auth{
+height:100vh;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .logo{
+    width: 100%;
+    .logo__text{
+      color: #3E9BA6;
+      font-weight: bolder;
+      font-family: 'Arial Black', montserrat;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .sign_in{
+    background-color: #0dc9a2;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    &:hover{
+      background-color: #000000;
+      color:#0dc9a2;
+    }
+  }
+  img{
+    width: 100px;
+  }
+}
+
+.fa-window-close{
+  color:#4D92B4;
+  cursor:pointer;
+}
+.ReactModal__Content{
+  border-radius:20px;
+  outline: none;
+  border: none;
+  background-color: rgba(0,0,0,0.5)!important;
+  width: 100%;
+  z-index:1050 !important;
+}
+
+.modal_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.modal_body{
+  margin:0 auto;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.ant-modal-title{
+font-size: 22px !important;
+  color:#4D92B4 !important;
+}
+.edit_btn{
+  color:orange !important;;
+}
+.delete_btn{
+  color: #ff0048 !important;;
+}

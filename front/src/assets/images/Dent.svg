@@ -1,0 +1,17 @@
+<svg id="master-artboard" viewBox="0 0 63.704193115234375 63.09807586669922" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1096 780;" width="63.704193115234375px" height="63.09807586669922px"><rect id="ee-background" x="0" y="0" width="63.704193115234375" height="63.09807586669922" style="white: white; fill-opacity: 0; pointer-events: none;"/>
+<g transform="matrix(1, 0, 0, 1, -43.05715751647949, -247.57876586914062)">
+<g>
+	<g>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="99.481" y1="277.8452" x2="50.3211" y2="277.8452">
+				<stop offset="0" style="stop-color:#FFFFFF"/>
+				<stop offset="0.1932" style="stop-color:#F5F5F8"/>
+				<stop offset="0.3" style="stop-color:#EEEFF4"/>
+				<stop offset="0.3673" style="stop-color:#EAECED"/>
+				<stop offset="0.7362" style="stop-color:#DCE0D6"/>
+				<stop offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+		<path class="st4" d="M99.5,277.5c0-9.9-10.2-20.4-25.9-20.4s-21.7,5.8-23,17.8c-1.4,13.3,3.3,23.7,19.9,23.7&#10;&#9;&#9;&#9;&#9;C87.1,298.6,99.5,287.7,99.5,277.5z" style="fill: url('#SVGID_4_');"/>
+		<path class="st5" d="M73.8,285.9c1.1-1.9,0.8-4,2.3-5.8c1.4-1.6,4-2.6,5.8-3.5c-3.4-1.8-5.8-3.2-7.5-6.7&#10;&#9;&#9;&#9;&#9;c-3.6,2.2-3.9,8.1-9.6,7.5C68.9,276.8,74.1,281.8,73.8,285.9z" style="opacity: 0.05;"/></g>
+	</g>
+</g>
+</svg>

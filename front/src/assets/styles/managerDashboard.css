@@ -1,0 +1,55 @@
+.manager__tab__header {
+  background-color: #bdbabb !important;
+}
+
+.modal__select {
+  width: 70px;
+}
+.total_admin{
+  background-color: black;
+}
+
+.dentist_table{
+   margin-top: 45px;
+}
+
+
+.patients_table-header,.clinic_table-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: #83D0DA;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px !important;
+}
+.patients_table-header,.clinic_table-header,.dentist_table_header h4{
+padding: 0;
+margin: 0;
+color: darkslategray;
+}
+.box ,.box__inner .fas{
+  font-size: 18px !important;
+  color: rgb(24, 23, 23)  !important;
+}
+.tab__header p{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.fa-filter{
+  padding-left: 20px !important;
+  padding-right: 20px;
+  color: rgb(206, 207, 207);
+}
+.box__inner p{
+  color: #002c6c;
+}
+
+
+.betaIcon{
+  width: 17px;
+  position: absolute;
+  top: 8px;
+  color:crimson;
+}
+/*# sourceMappingURL=managerDashboard.css.map */

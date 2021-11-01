@@ -1,0 +1,113 @@
+.tab__appointments__header{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+
+
+& .left__side{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  & .fas{
+    font-size: 21px;
+
+    color: #83D0DA;
+  }
+  & .tab__name{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+& .counter{
+  width: 50px;height: 50px;
+  background-color: #C4C4C4;
+  border-radius: 50px;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+}
+  & .right__side{
+    & .button__add__appointments{
+      margin: 10px;
+      background: #00E86B;
+      box-shadow: 1px 1px 7px rgb(174 160 160 / 25%);
+      border-radius: 10px;
+      & p{margin-top: 10px;
+        justify-content: center;
+        color: white;
+      }
+    }
+  }
+}
+.settings__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+& .profile__box{
+  display: flex;
+  height: 499px;
+  width: 194px;
+  border-radius: 10px;
+  background-color: white;
+  align-content: flex-start;
+  flex-wrap: wrap;
+ & .profile__info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+ & .profile__avatar{
+   width: 180px;
+ }
+ }
+  & .login__details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & .login__details__label{
+      margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;}
+  }
+  & .login__details__inputs{
+    background: #BBB9B9;
+    box-shadow: 1px 1px 7px rgba(174, 160, 160, 0.25);
+    border-radius: 10px;
+  }
+  & .btn__change{
+    margin-top: 20px;
+  }
+}
+  & .personal__details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & .personal__details__label{
+      margin: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    & .personal__details__input{
+      width: 327px;
+      height: 34px;
+
+      background: #FFFFFF;
+      box-shadow: 1px 1px 7px rgba(174, 160, 160, 0.25);
+      border-radius: 10px;
+    }
+    & .btn__save{
+      margin-top: 30px;
+  }
+  }
+}

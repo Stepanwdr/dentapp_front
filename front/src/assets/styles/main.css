@@ -1,0 +1,478 @@
+:root{
+  primaryColor:#83D0DA;
+  secondaryColor:#00B7FF;
+
+
+}
+
+.auth {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.auth .logo {
+  width: 100%;
+}
+.auth .logo .logo__text {
+  color: #3E9BA6;
+  font-weight: bolder;
+  font-family: "Arial Black", montserrat;
+  font-size: 16px;
+  text-align: center;
+}
+.auth .sign_in {
+  background-color: #0dc9a2;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 20px;
+}
+.auth .sign_in:hover {
+  background-color: #000000;
+  color: #0dc9a2;
+}
+.auth img {
+  width: 100px;
+}
+
+.fa-window-close {
+  color: #4D92B4;
+  cursor: pointer;
+}
+
+.ReactModal__Content {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  z-index: 1050 !important;
+}
+
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_body {
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.ant-modal-title {
+  font-size: 22px !important;
+  color: #4D92B4 !important;
+}
+
+.edit_btn {
+  color: orange !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.delete_btn {
+  color: #ff0048 !important;
+}
+.ant-modal{
+  width: 60% !important;
+}
+.clinicLogo{
+  width: 200px;
+}
+
+.clinicName{
+  color: #3E9BA6;
+
+}
+
+
+thead{
+  border-top-left-radius: 20px !important;
+}
+.table>:not(caption)>*>*{
+  background-color: white !important;
+}
+.actions_btns{
+text-align: center;
+}
+.avatar__col{
+  background-color: #94ffea;
+  text-align: center;
+}
+.formButton{
+  background-color: #53eec7 !important;
+  color: white !important;
+  border-radius: 10px;
+
+}
+.change__logo__btn{
+  position: absolute !important;
+  left: 0;
+  top:0;
+}
+.clinic__logo__upload{
+  position: relative !important;
+}
+.change_gallery_images_btn{
+visibility: hidden;
+  margin-bottom: 20px;
+}
+svg .selectedTooth,.isPending{
+  fill: #b5b2b2 !important;
+}
+svg .treathed{
+  fill: #26f594 !important;
+} 
+svg .isResearched{
+  fill: hsl(184, 100%, 54%) !important;
+}
+svg .removed{
+  fill: #adadad !important;
+}
+
+svg .healthy{
+  fill: #ffd0a9 !important;
+}
+svg .tooth{
+  fill: #1b2d30 !important;
+}
+
+svg path{
+  cursor: pointer;
+}
+svg path:hover{
+  fill-opacity: 0.6 !important;
+}
+svg .selected{
+  fill:gray;
+}
+  .selected_toots{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: #53eec7;
+border-radius: 10px;
+padding: 15px;
+width: 40%!important;
+transition: all .2s;
+  }
+  .selected_header{
+width: 100%;
+  }
+  .tooths_chart_modal{
+    display: flex;
+    justify-content: space-between;
+    width: auto !important;
+    transition: all .2s;
+  }
+  .dental_chart{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transition: all .2s;
+  }
+  .toot_chart_svg{
+    width: 70% !important;
+    transition: all .2s;
+  }
+  .selected_toots_list{
+    display: block;
+    width: 100%;
+  }
+  .selected_toots_list li{
+display: flex;
+justify-content: space-between;
+  }
+
+  .add_notes_modal{
+width: 50% !important;
+margin: 0 auto;
+  }
+  svg .selected{
+    fill:#000000;
+  }
+.selected_toots_form{
+padding: 5px;
+background-color: rgb(185, 198, 201);
+border-radius: 50%;
+  }
+
+  .box__inner p{
+    color: rgb(0, 54, 71) !important;
+}
+
+.dentist_table_cont,.clinic_table_cont{
+  margin-left: 0;
+  width: 100%;
+}
+.patient_dashboard_left_col{
+  height: 500px;
+
+width: 27.8%;
+background-color: white;
+border-radius: 20px;
+}
+.patient_clinic_card{
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.205);
+}
+
+.patient_clinic_card_avatar{
+  background-image:url("../images/dashboard/avatarEllipse.png");
+padding: 20px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 80%;
+height: 80%;
+margin: 0 auto;
+}
+.patient_clinic_card_avatar img{
+  width: 100%;
+  
+}
+
+.patient_dashboard_left_head{
+background-color: #83D0DA;
+border-top-left-radius:20px ;
+border-top-right-radius:20px;
+}
+.patient_dashboard_left_head h3{
+padding: 10px;
+font-size: 1.5em;
+color: rgb(255, 255, 255);
+}
+.patient_dashboard_left_col_body{
+  padding: 20px;
+}
+.clinic_name{
+  text-align: center;
+  color: #63abcf;
+}
+.patient_clinic_card_footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.show_dir{
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #1b2d30;
+  border: none;
+  outline: none;
+  background-color: #fffbfb;
+  color: #3E9BA6;
+  font-weight: 600;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.205);
+  transition: all .5s;
+}
+.show_dir:hover{
+  background-color: #94ffff;
+  color: #1b2d30;
+}
+
+
+.appointments_timeline{
+
+}
+.appointments_timeline_head{
+
+}
+.appointments_timeline_list{
+display: flex;
+justify-content: space-between;
+}
+.appointments_timeline_list_item{
+padding: 15px;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.205);
+border-radius: 15px;
+margin: 10px;
+text-align: center;
+background-color: white;
+}
+.next_appointments{
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 0;
+
+}
+.next_appointments .mounth{
+  padding: 15px;
+  padding-bottom: 0;
+}
+.next_appointment{
+  background-color: #ff0048;
+border-bottom-right-radius:15px;
+border-top-right-radius:15px;
+display: flex;
+color: white;
+align-items: center;
+padding: 20px;
+font-size: 1.3em;
+}
+.appointments_timeline .mounth{
+font-weight: 700;
+}
+.appointments_timeline .day{
+font-weight: 800;
+color: #32ffc2;
+}
+.appointments_timeline .status{
+
+}
+.appointments_timeline_head{
+  padding: 20px;
+ 
+}
+.appointments_details_head{
+  padding:20px ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  width: 50%;
+
+  border-right: 1px solid rgb(87, 85, 85);
+  position: relative;
+}
+.appointments_details_head::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: crimson;
+  position: absolute;
+  top: -30px;
+right: -10px;
+padding: 5px;
+box-shadow: crimson;
+border: 2px solid rgb(255, 255, 255) ;
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.appointments_details_head::after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: crimson;
+  position: absolute;
+  bottom: -30px;
+right: -10px;
+padding: 5px;
+box-shadow: crimson;
+border: 2px solid rgb(255, 255, 255) ;
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+.appointments_details_body{
+border-radius: 20px;
+box-shadow: 0px 0px 10px rgb(0, 0, 0,0.5);
+display: flex;
+align-items: center;
+margin: 20px;
+justify-content: space-around;
+
+padding-left: 20px;
+}
+.appointments_details_dentist{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.appointments_details_info.p{
+margin-top: 20px;
+}
+.form_errors{
+  color: red;
+}
+.uploaded_logo. .ant-upload-list-picture-card .ant-upload-list-item-error{
+  color: #0dc9a2 !important;
+}
+
+.clinic_card{
+  margin: 5px !important;
+  border-radius: 20px !important;
+  cursor:pointer;
+  transition: all 0.5s;
+width: 70%;
+  text-align: center;
+
+}
+.card_body{
+text-align: left;
+  margin-top: 5px;
+}
+.clinic_card:hover{
+  box-shadow: 0 0 20px rgb(0 0 0 / 40%);
+}
+
+.card_item .card_label{
+  color: #83D0DA;
+}
+.clinic_card_clinic_name{
+  color: #83D0DA;
+}
+.dentist_card_dentist_name{
+  color: #83D0DA;
+  margin-top:5px;
+}
+.dentist_card{
+  margin: 5px !important;
+  border-radius: 20px !important;
+  cursor:pointer;
+  transition: all 0.5s;
+  width: 70%;
+  text-align: center;
+
+}
+
+
+/*.clinic_logo{
+  background-image: url("../../assets/images/dashboard/avatarEllipse.png");
+background-repeat: no-repeat;
+  background-size: contain;
+margin-bottom: 20px;
+  display: inline-block;
+}
+
+ */
+.clinic_logo img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.visit_clinic_btn{
+  background-color: #0dc9a2 !important;
+  border-radius: 40px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+
+.dentist_avatar img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.visit_clinic_btn,.create_appoin{
+  background-color: #0dc9a2 !important;
+  border-radius: 40px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+
+
+/*# sourceMappingURL=main.css.map */

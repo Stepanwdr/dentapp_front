@@ -1,0 +1,114 @@
+import {
+    ADD_PATIENT_HISTORY,
+    GET_PATIENT_HISTORY,
+    EDIT_PATIENT HISTORY
+} from "../actions/AdminPatientHistory";
+import logo1 from "../../../assets/images/logo1.png";
+import logo2 from "../../../assets/images/logo2.png";
+import logo3 from "../../../assets/images/logo3.png";
+import _ from "lodash";
+const initialState = {
+    result: {},
+    formData:{},
+    clinicData: [
+        {
+            id: 1,
+            clinic: "Dental Clinic",
+            administrator: "Gayane Serobyan",
+            dentist: "Gagik Gevorgyan",
+            director: "Poxos Poxosyan",
+            phone: "94123456",
+            email: "dentalclinic@gmail.com",
+            city: "Gyumri",
+            address: "Sayat Nova",
+            workTimes: "10:00-20:00",
+            weeckend: "Sunday",
+            logo: logo1
+        },
+        {
+            id: 2,
+            clinic: "Nova Dent",
+            administrator: "Ani Gevorgyan",
+            dentist: "Hovhannes Hovhannisyan",
+            director: "Petros Petrosyan",
+            phone: "94123456",
+            email: "novadent@gmail.com",
+            city: "Maralik",
+            address: "Ani Street",
+            workTimes: "10:00-20:00",
+            weeckend: "Sunday",
+            logo: logo2
+        },
+        {
+            id: 3,
+            clinic: "Pharma Dent",
+            administrator: "Susanna Gevorgyan",
+            dentist: "Serob Poxosyan",
+            director: "Martin Hovhannisyan",
+            phone: "94123456",
+            email: "pharmadent@gmail.com",
+            city: "Artik",
+            address: "Rizhkov 27",
+            workTimes: "10:00-20:00",
+            weeckend: "Sunday",
+            logo: logo3
+        },
+    ],
+    errors: {},
+    userError: '',
+    status: '',
+}
+export default function reducer(state = initialState, action) {
+    switch (action.type) {
+        case ADD_CLINIC_TOGGLE_MODAL: {
+            const {addClinicModalShow} = action.payload
+            return {
+                ...state,
+                addClinicModalShow: !addClinicModalShow
+            }
+        }
+        case INFO_CLINIC_TOGGLE_MODAL: {
+            const {infoClinicModalShow, clinic} = action.payload
+            return {
+                ...state,
+                clinicData: clinic,
+                infoClinicModalShow: !infoClinicModalShow
+            }
+        }
+        case EDIT_CLINIC_TOGGLE_MODAL:{
+            const {editClinicModalShow, clinic} = action.payload
+            return {
+                ...state,
+                clinicData: clinic,
+                editClinicModalShow: !editClinicModalShow
+            }
+        }
+        case GET_PATIENTS.REQUEST: {
+            const{formData}=state
+            console.log(action, 'request')
+            return {
+                ...state,
+                formData
+            }
+        }
+        case GET_PATIENTS.SUCCESS: {
+            console.log(action, 'success')
+
+            return {
+                ...state,
+
+            }
+        }
+
+        case GET_PATIENTS.FAIL: {
+            console.log(action, 'fail')
+            return {
+                ...state,
+            }
+        }
+        default: {
+            return state;
+        }
+
+    }
+}
